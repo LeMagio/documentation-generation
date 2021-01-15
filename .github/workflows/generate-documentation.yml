@@ -27,7 +27,7 @@ jobs:
           node-version: '12'
         
       - run: npm install
-      - run: npm docs
+      - run: npm run docs
       
       - name: Upload Documentation to Wiki
         uses: SwiftDocOrg/github-wiki-publish-action@v1
